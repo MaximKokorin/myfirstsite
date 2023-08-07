@@ -178,6 +178,13 @@ header {
     .nav {
         flex-direction: column;
     }
+    .elem {
+        margin-top: 6px;
+    }
+    .logo {
+        height: 26px;
+        width: 57px;
+    }
 
     .head {
         margin-right: 0;
@@ -549,6 +556,7 @@ header {
     height: 175px;
     border: none;
     margin-bottom: 50px;
+    resize: none;
 }
 .sending {
     width: 190px;
@@ -618,7 +626,7 @@ header {
         font-size: 24px;
     }
     .info_form{
-        font-size: 12px;
+        font-size: 14px;
     }
     .sending {
         width: 120px;
